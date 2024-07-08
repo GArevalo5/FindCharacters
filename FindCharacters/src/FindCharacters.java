@@ -41,11 +41,11 @@ public class FindCharacters {
         // create the array to be returned
         List<Integer> output = new ArrayList();
 
-        // iterate through the words array
-        for (int i = 0; i < words.length; i++) {
-            // if the word contains the character x
-            if (words[i].contains(String.valueOf(x))) {
-                // add the index to the output array
+        for (int i = 0; i < words.length; i++)
+        {
+
+            if (words[i].contains(String.valueOf(x)))
+            {
                 output.add(i);
             }
         }
